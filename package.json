@@ -20,5 +20,9 @@
   "workspaces": [
     "apps/*",
     "packages/*"
-  ]
+  ],
+  "dependencies": {
+    "next-auth": "^4.24.7",
+    "prisma": "^5.12.1"
+  }
 }
