@@ -1,9 +1,16 @@
-"use client";
-import { signIn, signOut } from "next-auth/react"
+import Link from "next/link";
+import React from "react";
+import SigninButton from "./SigninButton";
 
-export const Appbar = () => {
-    return <div>
-    <button onClick={() => signIn()}>Signin</button>
-    <button onClick={() => signOut()}>Sign out</button>
-  </div>
-}
+const AppBar = () => {
+  return (
+    <header className="flex gap-4 p-4 bg-gradient-to-b from-white to-gray-200 shadow">
+      <Link className="transition-colors hover:text-blue-500" href={"/"}>
+        Home Page
+      </Link>
+      <SigninButton />
+    </header>
+  );
+};
+
+export default AppBar;

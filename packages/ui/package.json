@@ -4,9 +4,13 @@
   "private": true,
   "exports": {
     "./button": "./src/button.tsx",
-    "./card": "./src/card.tsx",
-    "./code": "./src/code.tsx",
-    "./appbar": "./src/appbar.tsx"
+    "./Login": "./src/Login.tsx",
+    "./InputBox": "./src/InputBox.tsx",
+    "./appbar": "./src/appbar.tsx",
+    "./Providers": "./src/Providers.tsx",
+
+    "./SigninButton": "./src/SigninButton.tsx"
+
 
   },
   "scripts": {
