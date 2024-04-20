@@ -8,6 +8,14 @@
     "./InputBox": "./src/InputBox.tsx",
     "./appbar": "./src/appbar.tsx",
     "./Providers": "./src/Providers.tsx",
+    "./Navbar": "./src/navbar-menu.tsx",
+    "./cn": "./src/cn.ts",
+    "./Input": "./src/Input.tsx",
+    "./Label": "./src/Label.tsx",
+
+
+
+
 
     "./SigninButton": "./src/SigninButton.tsx"
 

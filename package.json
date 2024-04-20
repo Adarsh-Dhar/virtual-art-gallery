@@ -12,6 +12,7 @@
     "@repo/typescript-config": "*",
     "hardhat": "^2.22.3",
     "prettier": "^3.2.5",
+    "tsconfig-paths": "^4.2.0",
     "turbo": "latest"
   },
   "engines": {
@@ -23,7 +24,10 @@
     "packages/*"
   ],
   "dependencies": {
+    "clsx": "^2.1.0",
+    "framer-motion": "^11.1.7",
     "next-auth": "^4.24.7",
-    "prisma": "^5.12.1"
+    "prisma": "^5.12.1",
+    "tailwind-merge": "^2.3.0"
   }
 }
