@@ -4,6 +4,6 @@
     "outDir": "dist",
     "jsx": "react"
   },
-  "include": ["src"],
+  "include": ["src", "../../apps/virtual-art-gallery/components/ParallexScroll.tsx"],
   "exclude": ["node_modules", "dist"]
 }

@@ -8,6 +8,7 @@
     "format": "prettier --write \"**/*.{ts,tsx,md}\""
   },
   "devDependencies": {
+    "@nomicfoundation/hardhat-toolbox": "^5.0.0",
     "@repo/eslint-config": "*",
     "@repo/typescript-config": "*",
     "hardhat": "^2.22.3",
